@@ -1,4 +1,4 @@
-#Square Payment
+# Square Payment
 
 Реализация расчета квадратного корня числа
 
