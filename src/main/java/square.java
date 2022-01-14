@@ -7,20 +7,7 @@ public class square {
         System.out.print("Input number: ");
         double number = scan.nextDouble();
 
-        double form;
-        double answer = 1;
-        double xn = 1;
-
-        while(xn*xn != number){
-            form = 0.5*(xn + (number/xn));
-            xn = form;
-
-            if (form*form == number){
-                answer = xn;
-                break;
-            }
-        }
+        double answer = squarePayment.sqrtPayment(number);
         System.out.println("Answer: " + answer);
-        // test
     }
 }
