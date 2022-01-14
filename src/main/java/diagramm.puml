@@ -1,0 +1,6 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+square ..> squarePayment
+squarePayment --|> square
+@enduml
