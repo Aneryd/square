@@ -14,9 +14,4 @@ public class testSquare {
     void additionSqrtUnderZero() {
         assertEquals(Math.sqrt(-10), squarePayment.sqrtPayment(-10));
     }
-    @Test
-    void additionSqrtMaxDoubleValue() {
-        assertEquals(Math.sqrt(Double.MAX_VALUE), squarePayment.sqrtPayment(Double.MAX_VALUE));
-    }
-
 }
