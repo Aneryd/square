@@ -1,0 +1,16 @@
+FROM ubuntu
+FROM openjdk
+
+
+COPY . .
+
+RUN javac square.java
+
+RUN javac squarePayment.java
+
+CMD ["java", "square"]
+
+
+# CMD ["1"]
+
+# CMD 12
