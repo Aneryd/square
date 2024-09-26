@@ -1,0 +1,7 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+square : main()
+square ..> squarePayment
+squarePayment : sqrtPayment()
+@enduml
